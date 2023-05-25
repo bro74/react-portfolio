@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+    margin-top: 10;
+}
+
+main {
+    display: block;
+}
+
+body {
+    background: linear-gradient(rgb(224, 67, 188), rgb(229, 170, 76), rgb(248, 249, 171), rgb(185, 163, 178), rgb(215, 135, 241));
+    font-family: 'monospace', "curier new";
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'monospace', "curier new";
+    background-color: rgb(163, 143, 174);
+    ;
+    color: rgb(132, 26, 148);
+    font-size: 95%;
+    font-weight: bolder;
+
+}
+
+
+.imageBanner {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(pride.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    padding-top: 10px;
+    float: right;
+    margin-left: 40%;
+
+
+}
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header nav ul li {
+    padding: 5px;
+    padding-right: 40px;
+    white-space: wrap;
+
+}
+
+.bio {
+
+    .intro {
+        float: left;
+        width: 30%;
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(163, 143, 174);
+        border: 1px solid black;
+
+    }
+}
